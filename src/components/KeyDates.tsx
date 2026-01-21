@@ -162,6 +162,7 @@ const DateCards = () => {
           transform: translateY(40px);
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
+          overflow: hidden; /* Fix: Ensures border-radius clips children */
         }
 
         .date-card.visible {
@@ -180,17 +181,21 @@ const DateCards = () => {
           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
         }
 
+        /* --- FIXED HOVER LINE --- */
         .date-card::before {
           content: '';
           position: absolute;
           top: 0;
           left: 0;
           right: 0;
-          height: 4px;
+          height: 6px; /* Slightly thicker for visibility */
           background: var(--card-color);
-          border-radius: 20px 20px 0 0;
+          /* Match the card's border radius exactly at the top */
+          border-top-left-radius: 20px; 
+          border-top-right-radius: 20px;
           opacity: 0;
           transition: opacity 0.3s ease;
+          z-index: 2;
         }
 
         .date-card:hover::before {
@@ -264,16 +269,7 @@ const DateCards = () => {
           margin-bottom: 20px;
         }
 
-        
-
         .date-card:hover {
-          opacity: 1;
-          transform: translateX(0);
-        }
-
-        
-
-        .date-card:hover 
           transform: translateX(4px);
         }
 
