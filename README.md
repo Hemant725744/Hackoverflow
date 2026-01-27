@@ -338,7 +338,7 @@ This project is proprietary and confidential. Unauthorized copying, distribution
 
 <div align="center">
 
-### Built with ❤️ by the HackOverflow Team
+### Built by the HackOverflow Team
 
 **[⬆ Back to Top](#-hackoverflow-40--official-website)**
 
