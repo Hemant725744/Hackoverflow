@@ -45,7 +45,7 @@ const Gallery = () => {
           title: "Opening Ceremony",
           desc: "The journey begins with 250+ passionate minds",
           time: "Day 1 - Morning",
-          image: "images/HO 1.0/1.1.png",
+          image: "/images/HO 1.0/1.1.png",
           color: "#FCB216"
         },
         {
@@ -54,7 +54,7 @@ const Gallery = () => {
           title: "Judging & Mentoring",
           desc: "Where experience shapes innovation",
           time: "Day 2 - Afternoon",
-          image: "images/HO 1.0/1.2.JPG",
+          image: "/images/HO 1.0/1.2.JPG",
           color: "#D91B57"
         },
         {
@@ -63,7 +63,7 @@ const Gallery = () => {
           title: "Pitch Perfect",
           desc: "Months of effort, minutes to impress",
           time: "Day 3 - Morning",
-          image: "images/HO 1.0/1.3.JPG",
+          image: "/images/HO 1.0/1.3.JPG",
           color: "#FCB216"
         },
         {
@@ -72,7 +72,7 @@ const Gallery = () => {
           title: "Coding Begins",
           desc: "Ideas turn into code, one line at a time",
           time: "Day 1 - Evening",
-          image: "images/HO 1.0/1.4.JPG",
+          image: "/images/HO 1.0/1.4.JPG",
           color: "#E85D24"
         },
         {
@@ -81,7 +81,7 @@ const Gallery = () => {
           title: "Networking Night",
           desc: "Breaking the code and the routine",
           time: "Day 2 - Night",
-          image: "images/HO 1.0/1.5.JPG",
+          image: "/images/HO 1.0/1.5.JPG",
           color: "#63205F"
         },
 
@@ -91,7 +91,7 @@ const Gallery = () => {
           title: "Victory",
           desc: "Celebrating the innovators and winners",
           time: "Day 3 - Afternoon",
-          image: "images/HO 1.0/1.6.webp",
+          image: "/images/HO 1.0/1.6.webp",
           color: "#E85D24"
         }
       ]
@@ -108,7 +108,7 @@ const Gallery = () => {
           title: "Grand Welcome",
           desc: "A new journey begins with bold ideas and open minds",
           time: "Day 1 - Morning",
-          image: "images/HO 2.0/2.1.JPG",
+          image: "/images/HO 2.0/2.1.JPG",
           color: "#FCB216"
         },
         {
@@ -117,7 +117,7 @@ const Gallery = () => {
           title: "Judging & Mentoring",
           desc: "Connections that last a lifetime",
           time: "Day 2 - Afternoon",
-          image: "images/HO 2.0/2.2.JPG",
+          image: "/images/HO 2.0/2.2.JPG",
           color: "#D91B57"
         },
         {
@@ -126,7 +126,7 @@ const Gallery = () => {
           title: "Final Pitch",
           desc: "Turning hard work into a powerful story",
           time: "Day 3 - Morning",
-          image: "images/HO 2.0/2.3.JPG",
+          image: "/images/HO 2.0/2.3.JPG",
           color: "#FCB216"
         },
         {
@@ -135,7 +135,7 @@ const Gallery = () => {
           title: "Hackathon Starts",
           desc: "The grind begins creativity meets execution",
           time: "Day 1 - Evening",
-          image: "images/HO 2.0/2.4.webp",
+          image: "/images/HO 2.0/2.4.webp",
           color: "#E85D24"
         },
         {
@@ -144,7 +144,7 @@ const Gallery = () => {
           title: "Jamming Night",
           desc: "Because innovation needs a little fun too",
           time: "Day 2 - Night",
-          image: "images/HO 2.0/2.5.JPG",
+          image: "/images/HO 2.0/2.5.JPG",
           color: "#63205F"
         },
         {
@@ -153,7 +153,7 @@ const Gallery = () => {
           title: "Champions Rise",
           desc: "New legends are born",
           time: "Day 3 - Afternoon",
-          image: "images/HO 2.0/2.6.JPG",
+          image: "/images/HO 2.0/2.6.JPG",
           color: "#E85D24"
         }
       ]
@@ -170,7 +170,7 @@ const Gallery = () => {
           title: "Inauguration Ceremony",
           desc: "Where innovators gather and possibilities take shape",
           time: "Day 1 - Morning",
-          image: "images/HO 3.0/3.1.JPG",
+          image: "/images/HO 3.0/3.1.JPG",
           color: "#FCB216"
         },
         {
@@ -179,7 +179,7 @@ const Gallery = () => {
           title: "Networking & Judging",
           desc: "Ideas that change the world",
           time: "Day 2 - Afternoon",
-          image: "images/HO 3.0/3.2.JPG",
+          image: "/images/HO 3.0/3.2.JPG",
           color: "#D91B57"
         },
         {
@@ -188,7 +188,7 @@ const Gallery = () => {
           title: "Grand Finale",
           desc: "The best minds evaluate brilliance",
           time: "Day 3 - Morning",
-          image: "images/HO 3.0/3.3.JPG",
+          image: "/images/HO 3.0/3.3.JPG",
           color: "#FCB216"
         },
         {
@@ -197,7 +197,7 @@ const Gallery = () => {
           title: "Coding sprint",
           desc: "Insights from tech giants",
           time: "Day 1 - Evening",
-          image: "images/HO 3.0/3.4.JPG",
+          image: "/images/HO 3.0/3.4.JPG",
           color: "#E85D24"
         },
         {
@@ -206,7 +206,7 @@ const Gallery = () => {
           title: "Night of fun",
           desc: "Not just coding but also fun",
           time: "Day 2 - Night",
-          image: "images/HO 3.0/3.5.JPG",
+          image: "/images/HO 3.0/3.5.JPG",
           color: "#63205F"
         },
         {
@@ -215,7 +215,7 @@ const Gallery = () => {
           title: "Winner Announcement",
           desc: "A celebration of innovation and spirit",
           time: "Day 3 - Afternoon",
-          image: "images/HO 3.0/3.6.JPG",
+          image: "/images/HO 3.0/3.6.JPG",
           color: "#E85D24"
         }
       ]
