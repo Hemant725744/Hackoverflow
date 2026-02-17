@@ -95,7 +95,7 @@ export default function Team() {
         github: "https://github.com/Parthb56"
       },
     },
-      
+
     {
       name: "Chetan Jadhav",
       role: "Technical Head",
@@ -203,7 +203,7 @@ export default function Team() {
         github: "http://github.com/AayushGunjal"
       },
     },
-     {
+    {
       name: "Saksham Tiwari",
       role: "Outreach Head",
       image: "/images/Team/Saksham Tiwari.jpeg",
@@ -213,7 +213,7 @@ export default function Team() {
         github: "https://github.com/Saksham-Tiwar"
       },
     },
-     {
+    {
       name: "Advait Patil",
       role: "Motion Graphics Head",
       image: "/images/Team/Advait Patil.jpeg",
@@ -228,8 +228,8 @@ export default function Team() {
   const TeamCard = ({ member }: { member: TeamMember }) => (
     <div className="team-card">
       <div className="team-avatar">
-        <Image 
-          src={member.image} 
+        <Image
+          src={member.image}
           alt={member.name}
           width={120}
           height={120}
@@ -331,10 +331,10 @@ export default function Team() {
         }
 
         .heads-grid {
-          display: grid;
-          grid-template-columns: repeat(4, 260px);
-          justify-content: center;
-          gap: 2rem;
+            display: flex;
+            justify-content: center;  /* center all cards */
+            gap: 2rem;
+            flex-wrap: wrap;          /* allow wrapping to next line */
         }
 
         /* Card */
@@ -420,7 +420,8 @@ export default function Team() {
 
         @media (max-width: 1024px) {
           .heads-grid {
-            grid-template-columns: repeat(2, 260px);
+            grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
+            justify-content: center;
           }
         }
 
@@ -430,6 +431,7 @@ export default function Team() {
           .leads-grid,
           .heads-grid {
             grid-template-columns: 260px;
+            justify-content: center;
           }
         }
       `}</style>
@@ -442,7 +444,7 @@ export default function Team() {
           subtitle="Innovators, dreamers, and builders creating the future"
           className="team-header-spacer"
         />
-        {/* PRINCIPAL */}
+
         <div className="team-level">
           <div className="section-head">
             <div className="section-title">Principal</div>
@@ -455,7 +457,6 @@ export default function Team() {
           </div>
         </div>
 
-        {/* FACULTY */}
         <div className="team-level">
           <div className="section-head">
             <div className="section-title">Faculty Coordinators</div>
@@ -468,7 +469,6 @@ export default function Team() {
           </div>
         </div>
 
-        {/* LEADS */}
         <div className="team-level">
           <div className="section-head">
             <div className="section-title">Leads</div>
@@ -481,7 +481,7 @@ export default function Team() {
           </div>
         </div>
 
-        {/* HEADS */}
+
         <div className="team-level">
           <div className="section-head">
             <div className="section-title">Heads</div>
